@@ -1,0 +1,4 @@
+com\example\WikiChangesHandler.class
+com\example\SpringBootProducerApplication.class
+com\example\KafkaTopicConfig.class
+com\example\WikiChangesProducer.class
