@@ -17,7 +17,7 @@ public class WikiChangesProducer {
     }
 
     public void sendMessage() throws Exception {
-        //TODO:: Implement logic to read data from even source and pushed it to the producer
+
         //Even source
         EventHandler eventHandler = new WikiChangesHandler(kafkaTemplate, "wiki-change");
         String url = "https://stream.wikimedia.org/v2/stream/recentchange";
